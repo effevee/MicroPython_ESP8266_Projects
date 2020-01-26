@@ -1,2 +1,2 @@
 # MicroPython_ESP8266_Projects
-Micropython projects on the ESP8266
+Micropython projecten op de ESP8266

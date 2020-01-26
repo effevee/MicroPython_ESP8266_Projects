@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>
+        <title>ESP Led controle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="/static/actions.js"></script>
+</head>    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>ESP Led controle</h1>
+            </div>
+            	<div data-role="content">
+			<div class="ui-grid-a">
+  <div class="ui-block-a"><h4>LED aan/uit</h4>
+<select data-role="slider" id="toggle_2">
+	<option value="off">Off</option>
+	<option value="on">On</option>
+</select></div>
+  <div class="ui-block-b"><input type="button" value="Stop ESP" id="button_3"></div>
+</div>
+		</div>
+            <div data-role="footer">
+		<input type="text" id="output_0" disabled="disabled" hidden/>
+		<h1>Oefening ESP</h1>
+            </div>
+        </div>
+    </body>
+
+</html>
